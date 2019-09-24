@@ -26,3 +26,7 @@ Route::get('ramos', function () {
 Route::get('john', function () {
     return view('ramos');
 });
+
+Route::get('john', function () {
+    return view('ramos');
+});
