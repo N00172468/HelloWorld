@@ -30,3 +30,5 @@ Route::get('john', function () {
 Route::get('john', function () {
     return view('ramos');
 });
+
+Route::get('/hello', 'HelloController@hello');
